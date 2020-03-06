@@ -5,3 +5,6 @@ while (length(unique(occur_number)) < 7) {
   occur_number <- c(occur_number,X)
 }
 occur[-1]
+
+y <- rnorm(100)
+hist(y)
